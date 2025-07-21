@@ -11,7 +11,7 @@ header{
     height:300px;
 
     /*DEBUG*/
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 .header-top{
@@ -21,7 +21,6 @@ header{
     flex-direction:row;
     justify-content:center;
     padding:5px 0;
-    margin-bottom:30px;
 
     /*DEBUG*/
     background-color:rgb(0, 238, 255);
@@ -56,13 +55,24 @@ header{
 }
 
 .header-bottom{
+    width:100%;
+    margin: 0 auto;
+    display:grid;
+    align-items: center;
+
+    /*DEBUG*/
+    height:90%;
+    background-color: blue;
+
+}
+
+.presentazione{
     width:50%;
     margin: 0 auto;
 
     /*DEBUG*/
     height:70%;
     background-color: violet;
-
 }
 
 /*Regole Main*/
