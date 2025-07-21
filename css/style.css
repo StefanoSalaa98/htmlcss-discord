@@ -179,10 +179,22 @@ a{
 
 .tecnologia{
        
-
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
     /*DEBUD*/
-    background-color: darkgreen;
-    height:500px;
+    /*background-color: darkgreen;*/
+    
+}
+
+.tecnologia img{
+    max-width:100%;
+}
+
+.blu{
+    background-color:#8EA1E2;
+    color:white;
 }
 
 .spazio{
