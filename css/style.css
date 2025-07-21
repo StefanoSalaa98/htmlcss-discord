@@ -142,7 +142,7 @@ a{
     width:60%;
 
     /*DEBUG*/
-    height:300px;
+    height:400px;
 }
 
 .grigia{
@@ -151,10 +151,16 @@ a{
 
 .immagine{
     width:60%;
+    display:grid;
+    place-items:center;
 
     /*DEBUG*/
     background-color:lightseagreen;
 
+}
+
+.immagine img{
+    max-width:80%;
 }
 
 .testo{
