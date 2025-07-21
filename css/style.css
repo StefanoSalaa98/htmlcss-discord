@@ -132,8 +132,8 @@ a{
 .modello{
     width:60%;
     margin:0 auto;
-    padding-bottom:20px;
-    padding-top:20px;
+    padding-bottom:100px;
+    padding-top:100px;
 }
 
 .contenitore{
@@ -142,7 +142,7 @@ a{
     width:60%;
 
     /*DEBUG*/
-    height:400px;
+    /*height:400px;*/
 }
 
 .grigia{
