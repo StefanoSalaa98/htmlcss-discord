@@ -34,14 +34,7 @@ header{
 
     background-color:#255EE9;
 }
-/*
-.info-flex{
 
-    /*DEBUG*/
-   /* background-color:gold;
-    border: 1px dashed black;
-}
-*/
 .logo{
     width:17.5%;
 }
@@ -60,7 +53,7 @@ header{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    gap:10%;
+    gap:7%;
     list-style-type: none;
 }
 
