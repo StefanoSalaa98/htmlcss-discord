@@ -310,3 +310,26 @@ footer{
     height:1px;
     margin-bottom:20px;
 }
+
+/*Bordo ondulato*/
+
+.bordo{
+    aspect-ratio:960/300;
+    background-repeat: no-repeat center;
+    background-size: cover;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom:50px;
+}
+
+.onda1{
+    background-image: url("../img/tipo2.svg");
+}
+
+.onda2{
+    background-image: url("../img/tipo1.svg");
+}
+
