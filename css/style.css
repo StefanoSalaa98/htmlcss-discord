@@ -10,6 +10,10 @@ h2{
     font-size:35px;
 }
 
+h3{
+    font-size:20px;
+}
+
 /*Regole Header*/
 
 header{
@@ -190,6 +194,11 @@ a{
 
 .tecnologia img{
     max-width:100%;
+}
+
+.stella{
+    width:50%;
+    margin:0 auto;
 }
 
 .blu{
