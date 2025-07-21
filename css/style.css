@@ -6,6 +6,10 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h2{
+    font-size:35px;
+}
+
 /*Regole Header*/
 
 header{
@@ -65,7 +69,7 @@ a{
 }
 
 .bottone{
-    padding:5px 15px;
+    padding:10px 15px;
     border-radius:30%;
     text-decoration: none;
 }
@@ -95,10 +99,30 @@ a{
 .presentazione{
     width:50%;
     margin: 0 auto;
+    color:white;
+    display:grid;
+    place-items: center;
 
     /*DEBUG*/
     height:70%;
     background-color: violet;
+}
+
+.presentazione p{
+    text-align:center;
+}
+
+.contenitore_bottoni{
+    display:flex;
+    justify-content:center;
+    gap:20%;
+    width:100%;
+
+}
+
+.nero{
+    background-color:black;
+    color:white;
 }
 
 /*Regole Main*/
