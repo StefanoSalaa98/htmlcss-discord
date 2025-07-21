@@ -10,7 +10,7 @@ h2{
     font-size:35px;
 }
 
-h3{
+h4{
     font-size:20px;
 }
 
@@ -214,11 +214,37 @@ a{
 
 /*Regole Footer*/
 
+footer h3{
+    font-size:25px;
+    color:#7387D9;
+}
+
+.nazione{
+    display:flex;
+    margin:15px auto;
+}
+
+.nazione img{
+    height:15px;
+}
+
+#lingua{
+    height:15px;
+    font-size:12px;
+    background-color:black;
+    color:white;
+    border: none;
+}
+
+.social a{
+    margin-right:10px;
+}
+
 .parlare{
     width:30%;
 
-    /*DEBUD*/
-    background-color: rgb(255, 192, 203);
+    /*DEBUD
+    background-color: rgb(255, 192, 203);*/
 }
 
 .footer-top{
