@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box; 
-    font-size:12px; 
+    font-size:15px; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -102,10 +102,12 @@ a{
     color:white;
     display:grid;
     place-items: center;
+    padding:0 20px;
+    padding-bottom:20px;
+    height:70%;
 
     /*DEBUG*/
-    height:70%;
-    background-color: violet;
+    /*background-color: violet;*/
 }
 
 .presentazione p{
