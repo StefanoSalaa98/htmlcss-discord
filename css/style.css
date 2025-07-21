@@ -1,7 +1,8 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    font-size:12px; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -33,16 +34,16 @@ header{
 }
 
 .logo{
-    width:15%;
+    width:17.5%;
 }
 
 .accedi{
-    width:15%;
+    width:17.5%;
     text-align:right;
 }
 
 .menu-header{
-    width:30%;
+    width:35%;
 }
 
 .menu{
@@ -52,6 +53,13 @@ header{
     gap:10%;
     list-style-type: none;
 }
+
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+
+/*Seconda sezione dell'header*/
 
 .header-bottom{
     width:100%;
