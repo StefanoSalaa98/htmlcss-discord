@@ -56,7 +56,21 @@ header{
 
 .menu a{
     color:white;
+}
+
+a{
     text-decoration: none;
+}
+
+.bottone{
+    padding:5px 15px;
+    border-radius:20%;
+    text-decoration: none;
+}
+
+.bianco{
+    background-color:white;
+    color:black;
 }
 
 /*Seconda sezione dell'header*/
