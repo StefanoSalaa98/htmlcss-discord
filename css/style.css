@@ -255,7 +255,7 @@ footer h3{
     padding-top:40px;
 
     /*DEBUG*/
-    height:300px;
+    /*height:300px;*/
 }
 
 .menu-footer{
@@ -264,16 +264,29 @@ footer h3{
     width:70%;
 
     /*DEBUG*/
-    background-color: rgb(72, 230, 230);
+    /*background-color: rgb(72, 230, 230);*/
 
 }
 
 .elenco{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
     width:25%;
+    font-size:15px;
+    margin-bottom:20px;
 
     /*DEBUG*/
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
+
+.elenco h5{
+    color:#7387D9;
+}
+
+.elenco a{
+    color:white;
+} 
 
 footer{
     background-color: black;
