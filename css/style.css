@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+}
+
+/*Regole Header*/
+
+header{
+    height:300px;
+
+    /*DEBUG*/
+    background-color: blue;
+}
+
+.header-top{
+    height:10%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:5px 0;
+    margin-bottom:30px;
+
+    /*DEBUG*/
+    background-color:rgb(0, 238, 255);
+}
+
+.info-flex{
+
+    /*DEBUG*/
+    background-color:gold;
+    border: 1px dashed black;
+}
+
+.logo{
+    width:15%;
+}
+
+.accedi{
+    width:15%;
+    text-align:right;
+}
+
+.menu-header{
+    width:30%;
+}
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:10%;
+    list-style-type: none;
+}
+
+.header-bottom{
+    width:50%;
+    margin: 0 auto;
+
+    /*DEBUG*/
+    height:70%;
+    background-color: violet;
+
+}
+
+/*Regole Main*/
+
+.modello{
+    width:60%;
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.contenitore{
+
+    display:flex;
+    width:60%;
+
+    /*DEBUG*/
+    height:300px;
+}
+
+.grigia{
+    background-color:lightgray;
+}
+
+.immagine{
+    width:60%;
+
+    /*DEBUG*/
+    background-color:lightseagreen;
+
+}
+
+.testo{
+    width:40%;
+    background-color: pink;
+
+}
+
+.tecnologia{
+       
+
+    /*DEBUD*/
+    background-color: darkgreen;
+    height:500px;
+}
+
+.spazio{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+
+/*Regole Footer*/
+
+.parlare{
+    width:30%;
+
+    /*DEBUD*/
+    background-color: rgb(255, 192, 203);
+}
+
+.footer-top{
+
+    display:flex;
+    width:60%;
+    margin:0 auto;
+    padding-top:10px;
+
+    /*DEBUG*/
+    height:300px;
+}
+
+.menu-footer{
+
+    display:flex;
+    width:70%;
+
+    /*DEBUG*/
+    background-color: rgb(72, 230, 230);
+
+}
+
+.elenco{
+    width:25%;
+
+    /*DEBUG*/
+    border: 1px solid white;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-bottom{
+
+    display:flex;
+    justify-content:space-between;
+    
+    
+    /*DEBUG*/
+    height:50px;
+    background-color:aqua;
+}
+
+.elemento-footer{
+
+    /*DEBUG*/
+    width:5%;
+    background-color: yellow;
+}
+
+.divisore{
+    background-color:gray;
+    margin: 0 auto;
+    width:60%;
+    height:2px;
+    margin-bottom:20px;
+}
